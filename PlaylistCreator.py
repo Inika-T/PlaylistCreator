@@ -325,8 +325,8 @@ if __name__ == '__main__':
     playlist_name = str(input(r"Input the playlist name: "))
     
     # Setup spotDl
-    client_id = "37b7811738a34d75bb0e097442373a97"
-    client_secret = "8b45a07947d944959dcb12fcb4e81bfc"
+    client_id = CLIENT_ID
+    client_secret = CLIENT_SECRET
     spotdl = Spotdl(client_id, client_secret)
     
     # Download songs and create list of metadata 
